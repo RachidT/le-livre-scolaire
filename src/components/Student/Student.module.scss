@@ -1,0 +1,46 @@
+.StudentWrapper {
+  position: relative;
+  display: flex;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.Student {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  &Icon {
+    font-size: 2rem;
+    fill: #818e94;
+    margin-right: 0.5rem;
+  }
+}
+
+.Label {
+  color: #818e94;
+  text-transform: uppercase;
+  padding-right: 0.5rem;
+}
+
+.Value {
+  padding-right: 1rem;
+}
+
+.Icons {
+  position: absolute;
+  right: 1rem;
+
+  &Edit {
+    margin-right: 1rem;
+    padding: 1rem;
+  }
+}

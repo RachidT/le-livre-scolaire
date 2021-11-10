@@ -1,0 +1,46 @@
+.Form {
+  width: 25rem;
+  padding-top: 0.5rem;
+}
+
+.FormHeader {
+  background-color: #de124c;
+  color: white !important;
+  font-size: 0.875rem;
+}
+
+.InputWrapper {
+  padding: 0.5rem 1rem;
+  width: 80%;
+}
+
+.Label {
+  color: #566166;
+}
+
+input {
+  outline: none;
+}
+
+.InputError {
+  &:focus {
+    border-color: #de124c;
+  }
+}
+
+.FormFooter {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.SubmitButton {
+  width: 10rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Error {
+  color: #f54c26;
+  font-size: 0.75rem;
+}

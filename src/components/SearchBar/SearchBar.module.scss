@@ -1,0 +1,24 @@
+.SearchBar {
+  background-color: #f54c26;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 25rem;
+}
+
+.Input {
+  width: 20rem;
+
+  &::placeholder {
+    font-style: italic;
+  }
+}
+
+.Icon {
+  color: white;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+}

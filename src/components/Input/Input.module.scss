@@ -1,0 +1,40 @@
+.InputWrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.Input {
+  width: 100%;
+  display: block;
+  box-shadow: none;
+  min-height: 2rem;
+  border-radius: 4px;
+  padding: 0 0.9rem;
+  margin: 0.5rem 0;
+  color: #303842;
+  border: 1px solid #eaecef;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 0.875rem;
+  font-family: 'Avenir Next', sans-serif;
+
+  &:focus {
+    border-color: #b5bcbf;
+  }
+
+  &Icon {
+    padding-left: 2.1rem;
+  }
+}
+
+.Icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0.8rem;
+  top: 0;
+  bottom: 0;
+  color: #818e94;
+}

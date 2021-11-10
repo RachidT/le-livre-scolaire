@@ -1,0 +1,25 @@
+.classRoom {
+  padding: 5rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-bottom: 0.125rem solid #de124c;
+  margin-bottom: 5rem;
+}
+
+.icon {
+  font-size: 2rem;
+  padding: 0.3rem 0.5rem 0.1rem 0.5rem;
+
+  &:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #c6cdd0;
+    padding: 0.3rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+  }
+}

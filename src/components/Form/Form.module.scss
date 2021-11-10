@@ -1,0 +1,24 @@
+.InputWrapper {
+  padding: 0.5rem 1rem;
+  width: 80%;
+}
+
+.Label {
+  color: #566166;
+}
+
+input {
+  outline: none;
+}
+
+.InputError {
+  &:focus {
+    border-color: #de124c;
+  }
+}
+
+.FormFooter {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
