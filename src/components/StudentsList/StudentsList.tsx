@@ -22,21 +22,28 @@ interface Props {
 const StudentsList = ({ students, searchBarValue, deleteStudent, setStudentsList }: Props) => {
   return (
     <div className={styles.Container}>
-      {students
-        .filter(
-          (student) =>
-            student.first_name.toUpperCase().includes(searchBarValue.toUpperCase()) ||
-            student.last_name.toUpperCase().includes(searchBarValue.toUpperCase()) ||
-            !searchBarValue.length,
-        )
-        .map((student) => (
-          <Student
-            key={student.id}
-            student={student}
-            deleteStudent={deleteStudent}
-            setStudentsList={setStudentsList}
-          />
-        ))}
+      {students.length ? (
+        students
+          .filter(
+            (student) =>
+              student.first_name.toUpperCase().includes(searchBarValue.toUpperCase()) ||
+              student.last_name.toUpperCase().includes(searchBarValue.toUpperCase()) ||
+              !searchBarValue.length,
+          )
+          .map((student) => (
+            <Student
+              key={student.id}
+              student={student}
+              deleteStudent={deleteStudent}
+              setStudentsList={setStudentsList}
+            />
+          ))
+      ) : (
+        <div className={styles.Empty}>
+          Vous n'avez pas d'élèves enregistré. Pour ajouter un élève cliquez sur l'icône en haut à
+          droite
+        </div>
+      )}
     </div>
   )
 }
