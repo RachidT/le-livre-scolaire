@@ -4,7 +4,7 @@ import studentsData from 'src/data'
 import { IoPersonAddOutline } from 'react-icons/io5'
 
 import styles from './ClassRoomDashboard.module.scss'
-import AddStudent from '../AddStudent/AddStudent'
+import AddStudent from '../StudentsList/components/AddStudent/AddStudent'
 import { Students } from '../StudentsList/StudentsList'
 
 const ClassRoomDashboard = () => {

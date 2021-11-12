@@ -3,7 +3,7 @@ import { Formik, Field, FormikErrors, FormikTouched } from 'formik'
 import { Input, Button } from 'src/components'
 import * as Yup from 'yup'
 import styles from './Form.module.scss'
-import { FormValues } from '../AddStudent/AddStudent'
+import { FormValues } from '../StudentsList/components/AddStudent/AddStudent'
 import { Students } from '../StudentsList/StudentsList'
 
 interface Props {

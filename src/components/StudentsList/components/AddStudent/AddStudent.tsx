@@ -3,7 +3,7 @@ import Modal from 'src/components/Modal'
 import { Form } from 'src/components'
 import styles from './AddStudent.module.scss'
 import uniqueId from 'lodash/uniqueId'
-import { Students } from '../StudentsList/StudentsList'
+import { Students } from '../../StudentsList'
 
 export type FormValues = {
   id: string

@@ -3,7 +3,7 @@ import { Button, ConfirmModal, EditStudent } from 'src/components'
 import { MdDelete } from 'react-icons/md'
 import { RiEdit2Fill } from 'react-icons/ri'
 import { BsPersonCircle } from 'react-icons/bs'
-import { Students } from '../StudentsList/StudentsList'
+import { Students } from '../../StudentsList'
 import styles from './Student.module.scss'
 
 interface Props {

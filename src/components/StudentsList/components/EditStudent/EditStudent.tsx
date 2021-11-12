@@ -3,7 +3,7 @@ import { FormValues } from '../AddStudent/AddStudent'
 import { Form } from 'src/components'
 import Modal from 'src/components/Modal'
 import styles from './EditStudent.module.scss'
-import { Students } from '../StudentsList/StudentsList'
+import { Students } from '../../StudentsList'
 
 interface Props {
   values: FormValues
