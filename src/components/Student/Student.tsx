@@ -9,7 +9,7 @@ import styles from './Student.module.scss'
 interface Props {
   student: Students
   deleteStudent: (id: string) => void
-  setStudentsList: (value: any) => void
+  setStudentsList: (value: Students[]) => void
 }
 const Student = ({ student, deleteStudent, setStudentsList }: Props) => {
   const [displayEditModal, setDisplayEditModal] = useState(false)

@@ -16,7 +16,7 @@ interface Props {
   students: Students[]
   searchBarValue: string
   deleteStudent: (id: string) => void
-  setStudentsList: (value: any) => void
+  setStudentsList: (value: Students[]) => void
 }
 
 const StudentsList = ({ students, searchBarValue, deleteStudent, setStudentsList }: Props) => {

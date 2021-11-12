@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from 'react'
+import React, { ReactNode, useEffect, useRef } from 'react'
 import { MdClose } from 'react-icons/md'
 import styles from './Modal.module.scss'
 import cx from 'classnames'
 
 export interface ModalProps {
-  children: JSX.Element
+  children: ReactNode
   open: boolean
   className?: string
   onRequestClose: any

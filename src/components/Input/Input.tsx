@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode, ForwardedRef } from 'react'
 import cx from 'classnames'
 
 import styles from './Input.module.scss'
@@ -16,7 +16,7 @@ interface Props extends React.InputHTMLAttributes<HTMLInputElement> {
   value?: string
 }
 
-const Input = React.forwardRef((props: Props, ref?: any) => {
+const Input = React.forwardRef((props: Props, ref?: ForwardedRef<HTMLInputElement>) => {
   const { className, classes = {}, type = 'text', icon, value, ...othersProps } = props
   return (
     <div className={classes.root}>
