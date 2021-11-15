@@ -6,6 +6,7 @@
   border-radius: 1rem;
   align-items: center;
   margin-bottom: 2rem;
+  justify-content: space-between;
 
   &:hover {
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
@@ -34,12 +35,7 @@
   padding-right: 1rem;
 }
 
-.Icons {
-  position: absolute;
-  right: 1rem;
-
-  &Edit {
-    margin-right: 1rem;
-    padding: 1rem;
-  }
+.EditIcon {
+  margin-right: 1rem;
+  padding: 1rem;
 }

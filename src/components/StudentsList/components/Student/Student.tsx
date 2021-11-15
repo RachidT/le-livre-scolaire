@@ -34,7 +34,7 @@ const Student = ({ student, deleteStudent, setStudentsList }: Props) => {
       </div>
       <div className={styles.Icons}>
         <Button
-          className={styles.IconsEdit}
+          className={styles.EditIcon}
           buttonType="secondary"
           onClick={() => setDisplayEditModal(true)}
         >
